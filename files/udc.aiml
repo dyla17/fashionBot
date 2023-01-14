@@ -1,7 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <aiml>
   <category>
-    <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <pattern>I AM INTERESTED IN YOUR PRODUCTS</pattern>
+    <template>Great! We have a wide range of products in different categories such as clothing, shoes, and accessories. 
+    Which category are you interested in?</template>
   </category>
+
+  <category>
+    <pattern>CLOTHING</pattern>
+    <template>We have a wide selection of clothing for men, women and kids. They come in different colors, fabrics and styles.
+    Would you like to see some options?</template>
+  </category>
+  
+  <category>
+    <pattern>YES</pattern>
+    <template>You can check our website, we have a variety of options. Also you can filter by category, color, fabric and price.
+    Also we have a sale section where you can find discounts and promotions.</template>
+  </category>
+  
+  <category>
+    <pattern>I AM INTERESTED IN YOUR WHOLESALE PRICES</pattern>
+    <template>We have different prices for wholesale customers. Please contact our sales department for more information.</template>
+  </category>
+  
+  <category>
+    <pattern>I WOULD LIKE TO ORDER IN BULK</pattern>
+    <template>We have different prices for bulk orders. Please contact our sales department for more information. 
+    They will assist you with the process and give you information about discounts, shipping and payments.</template>
+  </category>
+  
+  <category>
+    <pattern>NO</pattern>
+    <template>Alright, let me know if you need any other help.</template>
+  </category>
+  
 </aiml>
